@@ -1,24 +1,48 @@
-
-.contact-info{
-    text-align: center;
-    padding: 25px;
-    background: #2B2D42;
+html,
+body {
+    height: 100%;
+    margin: 0;
 }
-.contact-info a{
+
+.contact-info {
+    background: #2B2D42;
+
+    font-size: 30px;
+    line-height: 1.5;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact-info a {
     padding: 10px;
     display: inline-block;
 }
-a{
+
+a {
     color: red;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
 
-.container{
-    margin-bottom: 142px;
+.container {
+    min-height: calc(100% - 60px);
 }
 
-p{
+.contact-info p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+    /* Adds space between the links and the copyright text */
+}
+
+p {
     color: gray;
 }
